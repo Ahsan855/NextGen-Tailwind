@@ -54,16 +54,15 @@
 .card-creator {
   background: rgba(134, 155, 223, 0.14);
   border: 2px solid rgba(83, 84, 136, 0.4);
-  border-radius: 10px;
 }
 /* ========= Media Query ============ */
 @media (max-width: 576px) {
   .create-btn {
-    padding: 10px 30px;
+    padding: 19px 30px;
     font-size: 15px;
   }
   .default-btn {
-    padding: 10px 45px;
+    padding: 19px 40px;
     font-size: 15px;
   }
 }
