@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Tailwind Cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
     <!-- Style Sheet -->
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -54,18 +61,14 @@
         <div class="grid md:grid-cols-2 px-5">
           <!-- Banner Start -->
           <div class="h-100 my-auto">
-            <h1
-              class="sm:text-2xl md:text-[70px] sm:leading-normal py-4 headers"
-            >
+            <h1 class="text-4xl md:text-[70px] sm:leading-normal py-4 headers">
               Best NFTs <br />
               Marketplace.
             </h1>
-            <p class="py-5 text-white">
+            <p class="py-5 text-white pr-5">
               Ultrices eget pretium sit euismod mi id. In commodo auctor eget
-              congue <br />
-              sit. Risus, aliquam odio posuere ac in in nisl sed augue. Porta
-              aenean <br />
-              egestas malesuada in pulvinar enim viverra.
+              congue sit. Risus, aliquam odio posuere ac in in nisl sed augue.
+              Porta aenean egestas malesuada in pulvinar enim viverra.
             </p>
             <div class="flex pt-5">
               <div class="default-btn mr-4">Get Started</div>
@@ -81,6 +84,8 @@
         </div>
       </section>
 
+      <!-- Bid Coin Start -->
+
       <div class="bg-coin">
         <div
           class="container mx-auto grid grid-cols-1 md:grid-cols-5 px-5 gap-5 py-5"
@@ -92,6 +97,103 @@
           <img src="./img/coin/5.png" alt="" />
         </div>
       </div>
+      <!-- Bid Coin End -->
+
+      <!-- --------- Collecct NFTs Start--------- -->
+      <div class="container mx-auto my-16">
+        <div>
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-3 px-5">
+            <!-- Card 1 -->
+            <div class="relative mb-20">
+              <!-- Image Start -->
+              <div>
+                <img
+                  src="./img/collect/vadim-bogulov-qzOA5q2-lL4-unsplash.png"
+                  alt=""
+                />
+              </div>
+              <!-- Image End -->
+              <!-- Card Start -->
+              <div
+                class="bg-white px-14 py-3 rounded-lg absolute mx-auto bottom-[-50px] left-6 right-6 text-center"
+              >
+                <div class="flex items-center gap-8 justify-between py-2">
+                  <p>Lighting Axe</p>
+                  <p>0.34</p>
+                </div>
+                <div class="flex gap-2 items-center py-2">
+                  <img
+                    src="./img/small/pexels-uzunov-rostislav-5011647 (1).png"
+                    alt=""
+                  />
+                  <h1>Loura Chin</h1>
+                </div>
+                <button class="default-btn rounded-md pb-2">Picee A Bid</button>
+              </div>
+              <!-- Card End -->
+            </div>
+            <!-- Card 2 -->
+            <div class="relative mb-20">
+              <!-- Image Start -->
+              <div>
+                <img
+                  src="./img/collect/8machine-_-k5I4flX0l5Q-unsplash.png"
+                  alt=""
+                />
+              </div>
+              <!-- Image End -->
+              <!-- Card Start -->
+              <div
+                class="bg-white py-3 px-14 rounded-lg absolute mx-auto bottom-[-50px] left-6 right-6 text-center"
+              >
+                <div class="flex items-center gap-8 justify-between py-2">
+                  <p>Lighting Axe</p>
+                  <p>0.34</p>
+                </div>
+                <div class="flex gap-2 items-center py-4">
+                  <img
+                    src="./img/small/8machine-_-GVAYgLlpeZ8-unsplash (5).png"
+                    alt=""
+                  />
+                  <h1>Loura Chin</h1>
+                </div>
+                <button class="default-btn rounded-md">Picee A Bid</button>
+              </div>
+              <!-- Card End -->
+            </div>
+            <!-- Card 3 -->
+            <div class="relative mb-20">
+              <!-- Image Start -->
+              <div>
+                <img
+                  src="./img/collect/alex-sh-3PXWhniaP4Y-unsplash.png"
+                  alt=""
+                />
+              </div>
+              <!-- Image End -->
+              <!-- Card Start -->
+              <div
+                class="bg-white py-3 px-14 rounded-lg absolute mx-auto bottom-[-50px] left-6 right-6 text-center"
+              >
+                <div class="flex items-center gap-8 justify-between py-2">
+                  <p>Lighting Axe</p>
+                  <p>0.34</p>
+                </div>
+                <div class="flex gap-2 items-center py-4">
+                  <img
+                    src="./img/small/simon-lee-hbFKxsIqclc-unsplash (1).png"
+                    alt=""
+                  />
+                  <h1>Loura Chin</h1>
+                </div>
+                <button class="default-btn rounded-md">Picee A Bid</button>
+              </div>
+              <!-- Card End -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- --------- Collecct NFTs End--------- -->
     </main>
     <!-- ---------- Main End ---------- -->
   </body>
