@@ -37,6 +37,16 @@
   border-style: solid;
 }
 
+/* coin */
+.bg-coin {
+  transform: translate(0, 0);
+  margin: 0;
+  padding: 30px 60px;
+  background: url(./img/sape/Shade\ 1.svg) 50% 50%;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: transparent;
+}
 @media (max-width: 576px) {
   .create-btn {
     padding: 10px 30px;
