@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind Cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-main">
+    <!-------- Header Start  ------ -->
+    <header>
+      <!-- Nav Start  -->
+      <nav>
+        <div
+          class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row justify-between items-center"
+        >
+          <!-- Header Right  -->
+          <div>
+            <img src="./img/logo.png" alt="" />
+          </div>
+          <!-- Header End Right -->
+
+          <!-- Header Center Start -->
+          <div>
+            <ul
+              class="md:ml-auto md:mr-auto text-white flex flex-wrap items-center text-base justify-center"
+            >
+              <li><a class="mr-5 text-xl" href="#">Home</a></li>
+
+              <li><a class="mr-5 text-xl" href="#">Marketplace</a></li>
+
+              <li><a class="mr-5 text-xl" href="#">Artist</a></li>
+
+              <li><a class="mr-5 text-xl" href="#">Community</a></li>
+            </ul>
+          </div>
+          <!-- Header Center End -->
+          <!-- Header Left Start -->
+          <div>
+            <button class="default-btn">Log In</button>
+            <button class="create-btn">Sign Up</button>
+          </div>
+          <!-- Header Left End -->
+        </div>
+      </nav>
+      <!-- Nav End  -->
+    </header>
+    <!-- ---------- Header End ---------- -->
+    <!-- ---------- Main Start ---------- -->
+    <main>
+      <section class="container mx-auto">
+        <div class="grid md:grid-cols-2 px-5">
+          <!-- Banner Start -->
+          <div class="h-100 my-auto">
+            <h1
+              class="sm:text-2xl md:text-[70px] sm:leading-normal py-4 headers"
+            >
+              Best NFTs <br />
+              Marketplace.
+            </h1>
+            <p class="py-5 text-white">
+              Ultrices eget pretium sit euismod mi id. In commodo auctor eget
+              congue <br />
+              sit. Risus, aliquam odio posuere ac in in nisl sed augue. Porta
+              aenean <br />
+              egestas malesuada in pulvinar enim viverra.
+            </p>
+            <div class="flex pt-5">
+              <div class="default-btn mr-4">Get Started</div>
+              <div class="create-btn">Create NFTs</div>
+            </div>
+          </div>
+          <!-- Banner End -->
+          <!-- Banner image Start -->
+          <div>
+            <img class="py-5" src="./img/Right img & bg.png" alt="" />
+          </div>
+          <!-- Banner image End -->
+        </div>
+      </section>
+    </main>
+    <!-- ---------- Main End ---------- -->
+  </body>
+</html>
