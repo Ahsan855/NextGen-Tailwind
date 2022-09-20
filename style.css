@@ -19,7 +19,6 @@
 .view-btn {
   width: 200px;
   height: 53px;
-
   max-width: 80%;
 }
 .view-all {
@@ -30,6 +29,9 @@
   /*  Gradient */
   border: none;
   background: linear-gradient(180deg, #5c43f6 0%, #bc61f3 100%);
+}
+.view-all:hover {
+  background: linear-gradient(180deg, #3d1fff 0%, #a81dff 100%);
 }
 /*============ Button Default and Create btn ========= */
 .default-btn {
@@ -62,6 +64,9 @@
   margin: 0;
   background: linear-gradient(180deg, #5c43f6 0%, #bc61f3 100%);
   border-radius: 10px;
+}
+.price-btn:hover {
+  background: linear-gradient(180deg, #3d1fff 0%, #a81dff 100%);
 }
 /* Hover Default Btn And Create-btn */
 .create-btn:hover {
@@ -112,6 +117,7 @@
   line-height: 121%;
   color: #f2f2f2;
 }
+
 /* ========= Media Query ============ */
 @media (max-width: 576px) {
   .create-btn {
