@@ -1,10 +1,9 @@
 /* ========= Import url font ============ */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* ===== Main Body ========== */
 .bg-main {
   background: #04040c;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* =========== Header  ========== */
@@ -17,7 +16,21 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+.view-btn {
+  width: 200px;
+  height: 53px;
 
+  max-width: 80%;
+}
+.view-all {
+  padding: 16px 12px;
+  font-size: 19px;
+  font-weight: 500;
+  color: #f0f0f0;
+  /*  Gradient */
+  border: none;
+  background: linear-gradient(180deg, #5c43f6 0%, #bc61f3 100%);
+}
 /*============ Button Default and Create btn ========= */
 .default-btn {
   padding: 16px 40px;
@@ -51,8 +64,16 @@
 /* =========== coin ============ */
 .bg-coin {
   padding: 30px 70px;
-  opacity: 50px;
   background: url(./img/sape/Shade\ 1\ .svg) 0% 60%;
+  background-repeat: no-repeat;
+}
+.bg-creator {
+  padding: 30px 0px;
+  background: url(./img/sape/Shade\ 2\ .svg) 100% 60%;
+  background-repeat: no-repeat;
+}
+.bg-footer {
+  background: url(./img/sape/Shade\ 3\ .svg) 100% 60%;
   background-repeat: no-repeat;
 }
 /* Default card style */
@@ -60,14 +81,23 @@
   background: rgba(134, 155, 223, 0.14);
   border: 2px solid rgba(83, 84, 136, 0.4);
 }
+.title-p {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 121%;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 121%;
+  color: #f2f2f2;
+}
 /* ========= Media Query ============ */
 @media (max-width: 576px) {
   .create-btn {
-    padding: 19px 30px;
+    padding: 17px 20px;
     font-size: 15px;
   }
   .default-btn {
-    padding: 19px 40px;
+    padding: 19px 20px;
     font-size: 15px;
   }
 }
